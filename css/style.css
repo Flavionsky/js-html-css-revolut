@@ -1,0 +1,76 @@
+/* ---- GENERALI ----- */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+ul li a:hover{
+  color: black;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar ul {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar ul li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title-list {
+  padding: 10px;
+}
+.dropdown{
+  box-shadow: 1px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top : 50px;
+  display: none;
+  border-radius: 10px;
+}
+.dropdown ul li{
+  padding: 10px;
+}
+.dropdown ul li a{
+  position: relative;
+}
+.dropdown .new-item{
+  position: absolute;
+  right: 30px;
+  top: 120px;
+  font-size: 12px;
+  color: #EB008D;
+  font-weight: bold;
+}
+.navbar-left > .nav-logo > img{
+  width: 120px;
+}
+
+.navbar-right select.chose-language{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+}
+select.chose-language:hover{
+  color: black;
+}
+.navbar-right > .app-download > button{
+  cursor: pointer;
+  border: none;
+  outline:none;
+  background-color: #EB008D;
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  color: white;
+}
